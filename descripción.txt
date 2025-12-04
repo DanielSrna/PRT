@@ -1,0 +1,31 @@
+Este es un proyecto de repaso que busca ayudarme a rememorar el uso de diferentes tecnologías backend, estas son:
+
+- JavaScript
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- MongoDB Atlas
+- Helmet
+- JWT
+- Bcrypt.js
+- Express-validator
+- Dotenv
+- Multer
+- Sharp
+- Stripe
+- Express-rate-limit
+- Nodemailer
+- Winston
+- Cookie-parser
+- file-type
+- Docker
+- Axios
+- Husky
+- uuid v4
+- crypto
+- ESLint
+- Jest
+- Git, GitHub
+
+El proyecto simplemente busca implementar todas esas tecnologías en un par de endpoints para administración de usuarios, roles, permisos, y simular una venta de cualquier cosa.
