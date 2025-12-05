@@ -1,0 +1,28 @@
+{
+  "name": "proyecto_repaso_total",
+  "version": "1.0.0",
+  "description": "Se trata de un proyecto de repaso que busca explorar todas las tecnologías que conozco bajo la creación de una API completa y con seguridad moderna.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielSrna/PRT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielSrna/PRT/issues"
+  },
+  "homepage": "https://github.com/DanielSrna/PRT#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.0.0",
+    "winston": "^3.18.3"
+  }
+}

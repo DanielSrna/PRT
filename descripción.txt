@@ -1,22 +1,22 @@
 Este es un proyecto de repaso que busca ayudarme a rememorar el uso de diferentes tecnologías backend, estas son:
 
-- JavaScript
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- MongoDB Atlas
+- JavaScript [X]
+- Node.js [x]
+- Express.js [x]
+- MongoDB [X]
+- Mongoose [x]
+- MongoDB Atlas 
 - Helmet
 - JWT
 - Bcrypt.js
 - Express-validator
-- Dotenv
+- Dotenv [x]
 - Multer
 - Sharp
 - Stripe
 - Express-rate-limit
 - Nodemailer
-- Winston
+- Winston [x]
 - Cookie-parser
 - file-type
 - Docker
