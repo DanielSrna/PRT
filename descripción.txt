@@ -1,15 +1,15 @@
 Este es un proyecto de repaso que busca ayudarme a rememorar el uso de diferentes tecnologías backend, estas son:
 
-- JavaScript [X]
+- JavaScript [x]
 - Node.js [x]
 - Express.js [x]
-- MongoDB [X]
+- MongoDB [x]
 - Mongoose [x]
-- MongoDB Atlas 
+- MongoDB Atlas [x]
 - Helmet
-- JWT
-- Bcrypt.js
-- Express-validator
+- JWT [x]
+- Bcrypt.js [x]
+- Express-validator [x]
 - Dotenv [x]
 - Multer
 - Sharp
@@ -23,9 +23,32 @@ Este es un proyecto de repaso que busca ayudarme a rememorar el uso de diferente
 - Axios
 - Husky
 - uuid v4
-- crypto
+- crypto [x]
 - ESLint
 - Jest
 - Git, GitHub
 
 El proyecto simplemente busca implementar todas esas tecnologías en un par de endpoints para administración de usuarios, roles, permisos, y simular una venta de cualquier cosa.
+
+Progreso:
+
+0. Se termino de configurar la conexion de el servidor, y base de datos.
+
+1. Se han creado los modelos de:
+- RecoPassToken
+- RefreshToken
+- VerifyEmailToken
+- User
+
+2. Se ha creado los validadores de:
+- register
+- validatorsHandler
+
+3. Se creo el servicio de encriptación: crypto.
+
+4. Se creo el servicio de administración de tokens: jwt.service.js
+
+5. Se creo el servicio de rotación de tokens: tokenRotation.service.js
+
+6. Se crearon los middlewares de:
+- errorHandler

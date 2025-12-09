@@ -16,6 +16,10 @@ dotenv.config();
 import app from './config/server.config.js';
 import connectDB from './config/db.config.js';
 import logger from './logs/logger.js';
+import { setupUncaughtExceptionHandlers } from './middleware/errorHandler.middleware.js';
+
+// Configurar manejadores de errores no capturados
+setupUncaughtExceptionHandlers();
 
 // Conectar a la base de datos
 connectDB().then(() => {
